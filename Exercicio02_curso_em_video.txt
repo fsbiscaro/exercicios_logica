@@ -1,0 +1,27 @@
+02) Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-
+vindas para ela
+
+1.Qual é a entrada do problema?
+ Ler o Nome da pessoa
+2.Qual é a saída do problema?
+ Apresentar uma mensagem de bem vindo
+3.Qual é o processamento necessário para transformar a entrada na saída?
+ Pegar o nome inserido e incorporá-lo à mensagem de boas-vindas.
+4.Há alguma informação adicional necessária?
+ Não, apenas o nome da pessoa.
+5.Há algum detalhe especial ou caso limite a ser considerado?
+ Podemos assumir que a pessoa sempre fornecerá um nome válido.
+
+
+Portugol
+
+programa {
+  funcao inicio() {
+    cadeia nome
+    
+    escreva("Digite seu nome: ")
+    leia(nome)
+  
+    escreva("Olá, ", nome, "! Seja bem-vindo(a)!")
+  }
+}
