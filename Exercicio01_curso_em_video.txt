@@ -1,0 +1,21 @@
+
+1) Escreva um programa que mostre na tela a mensagem "Olá, Mundo!"
+
+1.Qual é a entrada do problema?
+ não há entrada de dados neste problema
+2.Qual é a saída do problema?
+ A mensagem "Olá, Mundo!" será exibida na tela.
+3.Qual é o processamento necessário para transformar a entrada na saída?
+ Não há processamento de entrada, apenas a exibição da mensagem.
+4.Há alguma informação adicional necessária?
+ Não
+5.Há algum detalhe especial ou caso limite a ser considerado?
+  Não
+
+Portugol 
+
+programa {
+  funcao inicio() {
+    escreva ("olá mundo")
+  }
+}
