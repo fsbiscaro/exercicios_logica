@@ -1,11 +1,32 @@
 
-?) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+3) Crie um programa que leia o nome e o salário de um funcionário, mostrando no
+final uma mensagem
 
 1.Qual é a entrada do problema?
+Receber o nome e o salário do funcionário
 2.Qual é a saída do problema?
+uma frase onde mostra o salário e o nome do funcionario
 3.Qual é o processamento necessário para transformar a entrada na saída?
+Incorporar o nome do usuario e seu salário
 4.Há alguma informação adicional necessária?
+Não, apenas o nome e o salário
 5.Há algum detalhe especial ou caso limite a ser considerado?
+Podemos assumir que o salário fornecido será um valor válido e positivo.
+
 
 Portugol
+programa {
+  funcao inicio() {
+    cadeia nome
+    inteiro salario
+
+    escreva("Olá, qual seu nome? ")
+    leia(nome)
+    
+    escreva("Quanto você ganha em reais? ")
+    leia(salario)
+
+    escreva("Então você se chama ",  nome, " e recebe R$ ", salario)
+  }
+}
 
