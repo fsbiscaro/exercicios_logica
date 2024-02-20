@@ -1,11 +1,32 @@
 
-?) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+6) Faça um programa que leia um número inteiro e mostre o seu antecessor e seu
+sucessor.
 
 1.Qual é a entrada do problema?
+ ler um numero inteiro 	
 2.Qual é a saída do problema?
+ mostrar para o usuario o antecessor e sucessor do numero escolhido	
 3.Qual é o processamento necessário para transformar a entrada na saída?
+ Encontrar o antecessor e o sucessor do número fornecido.
 4.Há alguma informação adicional necessária?
+nao
 5.Há algum detalhe especial ou caso limite a ser considerado?
+não
+
 
 Portugol
 
+programa {
+  funcao inicio() {
+    inteiro ante, suce, numero
+   
+    escreva("Digite um numero inteiro: ")
+    leia(numero)
+
+    ante = numero - 1
+    suce = numero + 1
+
+    escreva("O sucessor do numero ", numero, " é ", suce, " e o antecessor é ", ante)
+
+  }
+}

@@ -3,14 +3,32 @@
 entre eles.
 
 1.Qual é a entrada do problema?
-
+ Receber dois numeros inteiros	
 2.Qual é a saída do problema?
-
+ Mostrar a somatoria dos dados de entrada
 3.Qual é o processamento necessário para transformar a entrada na saída?
-
+ Receber 2 numeros que sejam inteiros e soma-los
 4.Há alguma informação adicional necessária?
-
+ não
 5.Há algum detalhe especial ou caso limite a ser considerado?
+ não
 
 Portugol
 
+programa {
+  funcao inicio() {
+    inteiro num1
+    inteiro num2
+    inteiro soma
+
+    escreva("Por favor Digite um número inteiro: ")
+    leia(num1)
+
+    escreva("Por favor, digite outro numero inteiro: ")
+    leia(num2)
+
+    soma = num1 + num2
+
+    escreva("A somatória desses dois números é igual a: ", soma)
+  }
+}

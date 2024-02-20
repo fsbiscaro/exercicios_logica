@@ -1,11 +1,34 @@
 
-?) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+5) Faça um programa que leia as duas notas de um aluno em uma matéria e mostre
+na tela a sua média na disciplina.
 
 1.Qual é a entrada do problema?
+ Receber a nota p1 e nota p2 e média
 2.Qual é a saída do problema?
+ a média dos alunos		
 3.Qual é o processamento necessário para transformar a entrada na saída?
+ receber p1 e p2 e dividir por 2
 4.Há alguma informação adicional necessária?
+ não
 5.Há algum detalhe especial ou caso limite a ser considerado?
+ não
 
 Portugol
 
+programa {
+  funcao inicio() {
+    real p1, p2, media 
+
+
+    Escreva("Digite a nota da p1: ")
+    leia(p1)
+
+
+    Escreva("Digite a nota da p2: ")
+    leia(p2)
+
+    media = (p1 + p2) / 2
+
+    Escreva("A média do aluno é de: ", media)
+  }
+}

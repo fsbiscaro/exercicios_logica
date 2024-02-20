@@ -1,10 +1,15 @@
 
-?) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+7) Crie um algoritmo que leia um número real e mostre na tela o seu dobro e a
+sua terça parte.
 
 1.Qual é a entrada do problema?
+
 2.Qual é a saída do problema?
+
 3.Qual é o processamento necessário para transformar a entrada na saída?
+
 4.Há alguma informação adicional necessária?
+
 5.Há algum detalhe especial ou caso limite a ser considerado?
 
 Portugol
