@@ -3,14 +3,31 @@
 e mostre quantos dólares ela pode comprar. Considere US$1,00 = R$3,45.
 
 1.Qual é a entrada do problema?
-
+ A quantidade de dinheiro em reais que a pessoa tem na carteira.
 2.Qual é a saída do problema?
-
+ A quantidade de dólares que a pessoa pode comprar com o dinheiro disponível.
 3.Qual é o processamento necessário para transformar a entrada na saída?
-
+ Converter o valor em reais para dólares usando a taxa de câmbio.
 4.Há alguma informação adicional necessária?
-
+ A taxa de câmbio entre dólares e reais, que é US$1,00 = R$3,45.
 5.Há algum detalhe especial ou caso limite a ser considerado?
+ Não, podemos assumir que o valor fornecido em reais será um valor válido.
 
 Portugol
-
+programa {
+  funcao inicio() {
+    // Declaração de variáveis
+    real dinheiro_em_reais, dinheiro_em_dolares
+    constante taxa_cambio = 3.45
+    
+    // Entrada de dados
+    escreva("Digite a quantidade de dinheiro em reais na carteira: ")
+    leia(dinheiro_em_reais)
+    
+    // Processamento
+    dinheiro_em_dolares = dinheiro_em_reais / taxa_cambio
+    
+    // Saída de dados
+    escreva("Com R$", dinheiro_em_reais, " você pode comprar aproximadamente US$", dinheiro_em_dolares)
+  }
+}

@@ -3,14 +3,31 @@
 sua terça parte.
 
 1.Qual é a entrada do problema?
-
+ um numero real
 2.Qual é a saída do problema?
-
+ o dobro e a terça parte
 3.Qual é o processamento necessário para transformar a entrada na saída?
-
+ ler um numero real e mostrar seu dobro e a terça parte
 4.Há alguma informação adicional necessária?
-
+ não
 5.Há algum detalhe especial ou caso limite a ser considerado?
-
+ não
 Portugol
 
+programa {
+  funcao inicio() {
+    
+    real numero, dobro, terca_parte
+    
+   
+    escreva("Digite um número real: ")
+    leia(numero)
+    
+
+    dobro = numero * 2
+    terca_parte = numero / 3
+    
+    
+    escreva("O dobro de ", numero, " é ", dobro, " e a terça parte é ", terca_parte)
+  }
+}

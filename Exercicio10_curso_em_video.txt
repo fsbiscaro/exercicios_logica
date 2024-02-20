@@ -1,0 +1,37 @@
+
+10) Faça um algoritmo que leia a largura e altura de uma parede, calcule e
+mostre a área a ser pintada e a quantidade de tinta necessária para o serviço,
+sabendo que cada litro de tinta pinta uma área de 2metros quadrados.
+
+1.Qual é a entrada do problema?
+ A largura e a altura da parede.
+2.Qual é a saída do problema?
+ A área a ser pintada e a quantidade de tinta necessária para pintar essa área.
+3.Qual é o processamento necessário para transformar a entrada na saída?
+ Calcular a área da parede e, em seguida, dividir essa área pela quantidade de metros quadrados que uma litro de tinta é capaz de pintar.
+4.Há alguma informação adicional necessária?
+ Saber que cada litro de tinta pinta uma área de 2 metros quadrados.
+5.Há algum detalhe especial ou caso limite a ser considerado?
+ Não, podemos assumir que as medidas fornecidas serão válidas.
+
+
+Portugol
+programa {
+  funcao inicio() {
+    
+    real largura, altura, area_parede, quantidade_tinta
+       
+    escreva("Digite a largura da parede em metros: ")
+    leia(largura)
+    
+    escreva("Digite a altura da parede em metros: ")
+    leia(altura)
+    
+    area_parede = largura * altura
+    quantidade_tinta = area_parede / 2
+    
+    escreva("A área a ser pintada é de ", area_parede, " metros quadrados.")
+    escreva("\nA quantidade de tinta necessária é de ", quantidade_tinta, " litros.")
+  }
+}
+
