@@ -1,15 +1,10 @@
 
-4) Desenvolva um algoritmo que leia dois números inteiros e mostre o somatório
-entre eles.
+?) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 1.Qual é a entrada do problema?
-
 2.Qual é a saída do problema?
-
 3.Qual é o processamento necessário para transformar a entrada na saída?
-
 4.Há alguma informação adicional necessária?
-
 5.Há algum detalhe especial ou caso limite a ser considerado?
 
 Portugol
